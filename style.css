@@ -242,7 +242,7 @@ table td:last-child {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Changed from space-between to flex-start */
+    justify-content: flex-start; 
     text-align: left;
     color: #333;
     padding: 10px;
@@ -252,16 +252,16 @@ table td:last-child {
 }
 
 .project .details h3 {
-    margin-bottom: 5px; /* Reduced spacing between heading and description */
+    margin-bottom: 5px; 
 }
 
 .project .details p {
-    margin-top: 0; /* Removed top margin from description */
+    margin-top: 0; 
 }
 
 .project .link {
-    align-self: flex-end; /* Moved to bottom-right */
-    margin-top: auto; /* Pushes the button to the bottom */
+    align-self: flex-end; 
+    margin-top: auto; 
 }
 
 .project .link a {
